@@ -2,7 +2,7 @@
   "name": "react-studio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/eirik64/manganato_redesign",
+  "homepage": "https://github.com/sleepyllama001/my-app",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "react": "^18.2.0",
