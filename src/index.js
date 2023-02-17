@@ -29,7 +29,7 @@ mangaData.forEach((item) => {
 
 export default function Appp() {
     return (
-      <HashRouter>
+      <HashRouter basename="/">
         <Link to='/'>a</Link>
         <Link to="/Trending">b</Link>
         <Routes>
