@@ -1,0 +1,39 @@
+.Back-Card-Border {
+    width: 26vw;
+    min-width: 300px;
+    height: 35vh;
+    /* Pochita01 */
+    background: #FFDFDC;
+    border-radius: 10px;
+    border: 0 solid black;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    transition: box-shadow .5s;
+}
+
+.Card-Content {
+    display: flex;
+    flex-direction: row;
+}
+
+.cover_back {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.cover_back_text_container {
+    position: absolute;
+    left: 2vw;
+}
+
+.manga_title_description {
+    padding-left: 2vw;
+    padding-right: 1vw;
+}
+
+.covers {
+    width: 10vw;
+    height: 28vh;
+    padding-left: 1vw;
+    padding-top: 1vh;
+}

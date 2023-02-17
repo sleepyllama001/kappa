@@ -1,0 +1,32 @@
+.footer_box {
+    /* Pochita */
+    background: #FF6150;
+    /* Aqua */
+    border: 5px solid #54D2D2;
+    border-radius: 20px 20px 0px 0px;
+    width: 98vw;
+    height: 15vh;
+}
+
+.footer_text {
+    color: #FFFFFF;
+}
+
+.footer_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#privacy_policy {
+    padding-left: 1vw;
+}
+
+#about_us {
+    padding-right: 1vw;
+}
+
+#email {
+    padding-right: 1vw;
+}

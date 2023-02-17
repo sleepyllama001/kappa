@@ -1,0 +1,39 @@
+/* The genre-label */
+.genre-label {
+    font-size: 2.4vmin;
+    font-family: 'Patrick Hand', serif;
+    color: white;
+}
+
+/* Hide the browser's default checkbox */
+.genre-checkbox {
+    -webkit-appearance: none;
+    background-color: #fafafa;
+    border: 1px solid #cacece;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+    border-radius: 3px;
+    cursor: pointer;
+    height: 1.5vh;
+    width: 1vw;
+}
+
+.genre-checkbox:active, .genre-checkbox:checked:active {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.genre-checkbox:checked {
+    background-color: #54D2D2;
+    border: 1px solid #adb8c0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+    color: #99a1a7;
+}
+
+.genre-checkbox:hover {
+    background-color: #CDD3DA;
+}
+
+.genre-checkbox:checked:after {
+    content: '\2714';
+    font-size: 1.4vw;
+    color: black;
+}

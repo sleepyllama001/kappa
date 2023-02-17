@@ -1,0 +1,322 @@
+.container{
+    display: grid;
+    grid-template-columns: [first] 10% [second] 55% [fourth] 30%;
+    grid-gap: 25px;
+    padding-bottom: 50px;
+}
+
+.menu_container{
+    display: block;
+}
+
+
+
+
+.subcontainer_book{
+    display: grid;
+    grid-template-rows: [first] 10% [second] 70% [third] 20%;
+    grid-template-columns: [colone] 40% [coltwo] 60%;
+    border-color: black;
+    border-radius: 1px;
+    border-style: solid;
+    /* padding-bottom: 10px; */
+}
+
+
+
+.book_pic{
+    display: block;
+    grid-row-start: second;
+    grid-row-end: third;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    grid-column-start: colone;
+    grid-column-end: coltwo;
+    
+}
+
+.book_stars{
+    display: grid;
+    grid-row-start: first;
+    grid-row-end: second;
+    max-width: 70%;
+    max-height: 60%;
+    margin-left: 70px;
+}
+
+.book_pic img {
+    width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.book_text{
+    display: grid;
+    grid-row: rowthree;
+    grid-column: one;
+    padding-left: 10px;
+}
+
+
+
+.subsubcontainer_book{
+    display: grid;
+
+}
+
+.book_text {
+    grid-row-start: second;
+    grid-row-end: third;
+
+    grid-column-start: coltwo;
+    /* grid-column-end: coltwo; */
+}
+.book_categories {
+    grid-row-start: third;
+    /* grid-row-end: third; */
+    font-size: 24px;
+
+    grid-column-start: coltwo;
+    /* grid-column-end: coltwo; */
+}
+
+.phone_menu {
+    display: none;
+}
+
+.bookmark_button {
+    border-style: solid;
+    border-color: black;
+    color: #072448;
+    border-radius: 10px;
+
+    grid-row-start: rowtwo;
+    /* grid-row-end: third; */
+
+    grid-column-start: second;
+    /* grid-column-end: coltwo; */
+    text-align: center;
+    /* margin-top: 15%; */
+    padding-top: 12%;
+    background-color: #072448;
+    color: white;
+    transition: .5s;
+}
+
+.bookmark_button:hover {
+    background-color:#54D2D2;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+}
+.status_button {
+    border-style: solid;
+    border-color: black;
+    color: #072448;
+    border-radius: 10px;
+
+    grid-row-start: rowtwo;
+    /* grid-row-end: third; */
+
+    grid-column-start: fourth;
+    /* grid-column-end: coltwo; */
+    text-align: center;
+    /* margin-top: 15%; */
+    padding-top: 12%;
+    background-color: #FFDFDC;
+}
+
+.button_grid {
+    grid-row-start: third;
+    /* grid-row-end: third; */
+
+    grid-column-start: colone;
+    /* grid-column-end: coltwo; */
+    display: grid;
+
+ 
+    grid-template-rows: [rowone] 30% [rowtwo] 40% [rowthree] 30%;
+    grid-template-columns: [first] 5% [second] 40% [third] 10% [fourth] 40% [fifth] 5%;;
+}
+
+.sidebar_manga {
+
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .subcontainer_book{
+        display: grid;
+        grid-template-columns: [one] 100%;
+        grid-template-rows: [rowone] 25% [rowtwo] 25% [rowthree] 25% [rowfour] 25% [rowfive] 25% [rowsix] 25%;
+    }
+
+    .horizontal_divs{
+        width: 90%;
+    }
+    
+    .manga_title_chapters {
+        padding-left: 9vw;
+
+    }
+
+    .manga_title_title {
+        font-size: 5vw;
+    }
+
+    .manga_title_chapters_chapters {
+        font-size: 4vw;
+    }
+
+    .Manga_Card_Border {
+        width: 90%;
+    }
+    
+    .book_pic{
+        display: grid;
+        grid-row: rowtwo;
+        grid-column: one;
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+        padding-left: 30%;
+    }
+
+    .book_stars{
+        display: grid;
+        grid-row: rowone;
+    }
+
+    .book_text{
+        display: grid;
+        grid-row-start: rowthree;
+        grid-column: one;
+        font-size: 14px;
+    }
+
+    .book_categories {
+       grid-row-start: rowfour;
+       grid-column: one;
+    }
+
+    .button_grid{
+        display: grid;
+        grid-row-start: rowfive;
+        grid-column: one;
+    }
+
+    .covers {
+        width: 27vw;
+    }
+
+    .book_stars{
+        max-width: 75%;
+    }
+
+   
+
+    .sidebar_manga {
+        /* This hides the menu when the device is too small, I'll code in some aspect of a smaller replacement or even a dropdown in its place*/
+        display: grid;
+        grid-column: second;
+        padding-top: 50%;
+        padding-left: 10%;
+    }
+
+    .menu_container {
+        /* This hides the menu when the device is too small, I'll code in some aspect of a smaller replacement or even a dropdown in its place*/
+        display: none;
+    }
+
+    .container {
+        display: grid;
+        /* grid-template-columns: [first] 5% [second] 90% [third] 5%; */
+        grid-template-columns: [second] 100%;
+        max-width: 100vw;
+        overflow: hidden;
+    }
+
+    .phone_menu{
+        display: inline;
+    }
+
+    /* AHHHHHHHHHH*/
+
+    /* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    height: 4vh;
+   
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .phone_logo {
+    max-width: 75%;
+    height: 7vh;
+    grid-column: two;
+    align-self: end;
+  }
+
+  .phone_menu{
+    /* display: flex; */
+  }
+  .topnav{
+    display: grid;
+    grid-template-columns: [one] 14% [two] 20% [three] 20% [four] 20% [five] 20%;
+    grid-template-rows: [one] 7vh;
+    max-height: 7vh;
+}
+  .padding_book_desc {
+    align-self: end;
+    display: grid;
+    grid-column: five;
+  }
+
+  #night-mode {
+    max-height: 1.5vh;
+    grid-column: five;
+    align-self: end;
+  }
+
+  .icon {
+    display: grid;
+    grid-column: one;
+    align-self: end;
+  }
+}

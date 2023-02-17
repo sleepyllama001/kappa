@@ -1,0 +1,99 @@
+@media screen and (max-width: 600px) {
+    #trending-body {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+#filter_options {
+    background: #FF6150;
+    /* Aqua */
+    border: 5px solid #54D2D2;
+    border-radius: 1vw;
+    padding-bottom: 1vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 30vw;
+    height: 70vh;
+}
+
+@media screen and (max-width: 600px) {
+    #filter_options {
+        display: none;
+    }
+}
+
+#genre-checkbox-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30vw;
+    height: 40vh;
+}
+
+#Search-Bar {
+    width: 55vw;
+}
+
+@media screen and (max-width: 600px) {
+    #filter-modal-button {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    #filter-modal-button {
+        display: none;
+    }
+}
+
+.Modal-Body-Filter {
+    width: 40vw;
+    height: 90vh;
+    position: relative;
+    background-color: #FF6150;
+    border: 5px solid #54D2D2;
+    border-radius: 5px;
+}
+
+#content-box {
+    width: 60vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+
+
+.Flex-Column {
+    display: flex;
+    flex-direction: column;
+}
+
+.Flex-Row {
+    display: flex;
+    flex-direction: row;
+}
+
+.Justify-Center {
+    display: flex;
+    justify-content: center;
+}
+
+.Justify-Start {
+    display: flex;
+    justify-content: start;
+}
+
+.Align-Center {
+    display: flex;
+    align-items: center;
+}
+
+.White-Text {
+    color: white;
+}
+
+.Pad-Left-2 {
+    padding-left: 2vw;
+}

@@ -1,0 +1,24 @@
+.genre_btn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+
+    /* Pochita */
+    background: #072448;
+    /* Aqua */
+    border-radius: .5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-top: .8vw;
+    margin-left: .8vw;
+}
+
+.genre_btn:hover {
+    color: white;
+
+    /* Pochita */
+    background: #304967;
+    cursor: pointer;
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.25);
+}

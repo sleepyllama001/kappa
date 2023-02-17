@@ -1,0 +1,174 @@
+@media screen and (max-width: 600px) {
+    .subcontainer_book{
+        display: grid;
+        grid-template-columns: [one] 100%;
+        grid-template-rows: [rowone] 25% [rowtwo] 25% [rowthree] 25% [rowfour] 25% [rowfive] 25% [rowsix] 25%;
+    }
+
+    .horizontal_divs{
+        width: 90%;
+    }
+    
+    .manga_title_chapters {
+        padding-left: 9vw;
+
+    }
+
+    .manga_title_title {
+        font-size: 5vw;
+    }
+
+    .manga_title_chapters_chapters {
+        font-size: 4vw;
+    }
+
+    .Manga_Card_Border {
+        width: 90%;
+    }
+    
+    .book_pic{
+        display: grid;
+        grid-row: rowtwo;
+        grid-column: one;
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+        padding-left: 30%;
+    }
+
+    .book_stars{
+        display: grid;
+        grid-row: rowone;
+    }
+
+    .book_text{
+        display: grid;
+        grid-row-start: rowthree;
+        grid-column: one;
+        font-size: 14px;
+    }
+
+    .book_categories {
+       grid-row-start: rowfour;
+       grid-column: one;
+    }
+
+    .button_grid{
+        display: grid;
+        grid-row-start: rowfive;
+        grid-column: one;
+    }
+
+    .covers {
+        width: 27vw;
+    }
+
+    .book_stars{
+        max-width: 75%;
+    }
+
+   
+
+    .sidebar_manga {
+        /* This hides the menu when the device is too small, I'll code in some aspect of a smaller replacement or even a dropdown in its place*/
+        display: grid;
+        grid-column: second;
+        padding-top: 50%;
+        padding-left: 10%;
+    }
+
+    .menu_container {
+        /* This hides the menu when the device is too small, I'll code in some aspect of a smaller replacement or even a dropdown in its place*/
+        display: none;
+    }
+
+    .container {
+        display: grid;
+        /* grid-template-columns: [first] 5% [second] 90% [third] 5%; */
+        grid-template-columns: [second] 100%;
+        max-width: 100vw;
+        overflow: hidden;
+    }
+
+    .phone_menu{
+        display: inline;
+    }
+
+    /* AHHHHHHHHHH*/
+
+    /* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    height: 4vh;
+   
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .phone_logo {
+    max-width: 75%;
+    height: 7vh;
+    grid-column: two;
+    align-self: end;
+  }
+
+  .phone_menu{
+    /* display: flex; */
+  }
+  .topnav{
+    display: grid;
+    grid-template-columns: [one] 14% [two] 20% [three] 20% [four] 20% [five] 20%;
+    grid-template-rows: [one] 7vh;
+    max-height: 7vh;
+}
+  .padding_book_desc {
+    align-self: end;
+    display: grid;
+    grid-column: five;
+  }
+
+  #night-mode {
+    max-height: 1.5vh;
+    grid-column: five;
+    align-self: end;
+  }
+
+  .icon {
+    display: grid;
+    grid-column: one;
+    align-self: end;
+  }
+}

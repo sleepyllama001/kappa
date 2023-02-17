@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Mob Psycho 100",
+    "author": "One",
+    "alt": "Mob Psycho 100 Vol 1. Cover",
+    "chapters": ["Chapter 125", "Chapter 124", "Chapter 123", "Chapter 122", "Chapter 121"],
+    "genres": ["Supernatural", "Coming of Age"],
+    "image": "img/manga_covers/mob_psycho_cover.png"
+  },
+  {
+    "title": "Jujutsu Kaisen",
+    "author": "Gege Akutami",
+    "alt": "Jujutsu Kaisen Vol 1. Cover",
+    "chapters": ["Chapter 156", "Chapter 155", "Chapter 154", "Chapter 153", "Chapter 152"],
+    "genres": ["Supernatural", "Action"],
+    "image": "img/manga_covers/jjk_cover.png"
+  },
+  {
+    "title": "Haikyuu",
+    "author": "Haruichi Furudate",
+    "alt": "Haikyuu Vol 1. Cover",
+    "chapters": ["Chapter 312", "Chapter 311", "Chapter 310", "Chapter 309", "Chapter 308"],
+    "genres": ["Sports", "Coming of Age"],
+    "image": "img/manga_covers/haikyuu.jpg"
+  },
+  {
+    "title": "One Piece",
+    "author": "Oda Eichiro",
+    "alt": "One Piece Vol 1. Cover",
+    "chapters": ["Chapter 1062", "Chapter 1061", "Chapter 1060", "Chapter 1059", "Chapter 1058"],
+    "genres": ["Action", "Adventure"],
+    "image": "img/manga_covers/onepiece_cover.jpeg"
+  },
+  {
+    "title": "Bakuman",
+    "author": "Tsugumi Ohba",
+    "alt": "Bakuman Vol 1. Cover",
+    "chapters": ["Chapter 156", "Chapter 155", "Chapter 154", "Chapter 153", "Chapter 152"],
+    "genres": ["Supernatural", "Coming of Age"],
+    "image": "img/manga_covers/bakuman_cover.jpeg"
+  },
+  {
+    "title": "Demon Slayer",
+    "author": "Koyoharu Gotouge",
+    "alt": "Demon Slayer Vol 1. Cover",
+    "chapters": ["Chapter 312", "Chapter 311", "Chapter 310", "Chapter 309", "Chapter 308"],
+    "genres": ["Supernatural", "Action"],
+    "image": "img/manga_covers/demon_slayer_cover.jpeg"
+  },
+  {
+    "title": "Naruto",
+    "author": "Masashi Kishimito",
+    "alt": "Naruto Vol 1. Cover",
+    "chapters": ["Chapter 715", "Chapter 714", "Chapter 713", "Chapter 712", "Chapter 711"],
+    "genres": ["Action", "Shonen"],
+    "image": "img/manga_covers/naruto_cover"
+  },
+  {
+    "title": "Trigun",
+    "author": "Yasuhiro Nightow",
+    "alt": "Trigun Vol 1. Cover",
+    "chapters": ["Chapter 151", "Chapter 150", "Chapter 149", "Chapter 148", "Chapter 147"],
+    "genres": ["Love", "Peace"],
+    "image": "img/manga_covers/trigun_cover.jpeg"
+  },
+  {
+    "title": "Noragami",
+    "author": "Adachitoka",
+    "alt": "Noragami Vol 1. Cover",
+    "chapters": ["Chapter 228", "Chapter 227", "Chapter 226", "Chapter 225", "Chapter 224"],
+    "genres": ["Supernatural", "Action"],
+    "image": "img/manga_covers/noragami_cover.jpeg"
+  }
+]

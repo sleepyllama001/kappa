@@ -1,0 +1,294 @@
+/* NAV BAR */
+/*      */
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+/*      LOGO*/
+.logo {
+    min-height: 5vh;
+    padding-left: 5vw;
+}
+
+.horizontal_logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+
+.M {
+    max-width: 10vw;
+    max-height: 10vh;
+}
+
+.Manga {
+    padding-left: .5vw;
+    /* Pochita */
+    color: #FF6150;
+}
+
+.Nato {
+    /* Aqua */
+    color: #54D2D2;
+}
+/*      MENU BAR*/
+.menu_bar {
+    display:flex;
+    align-items: center;
+}
+
+.border_box {
+    /* Pochita */
+    background: #FF6150;
+    /* Aqua */
+    border: 5px solid #54D2D2;
+    border-radius: 20px;
+    max-height: 6vh;
+}
+
+.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+    display: flex;
+    align-items: center;
+}
+
+#Home {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#Home:hover {
+    background: #FF7B6D;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#Recent {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#Recent:hover {
+    background: #FF7B6D;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#Trending {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#Trending:hover {
+    background: #FF7B6D;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+ul.horizontal li {
+    float: left;
+    color: #FFFFFF;
+
+    font-size: 2vw;
+    font-family: 'Patrick Hand', serif;
+    padding: 1vh 1.5vw;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 1001px) {
+    ul.horizontal li {
+        font-size: 1.8vw;
+    }
+}
+
+/* If the screen size is 61000px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 1000px) {
+    ul.horizontal li {
+        font-size: 2vw;
+    }
+}
+
+/*      LOGIN REGISTER*/
+.loginRegister {
+    text-decoration: none;
+    background: #072448;
+    border: 5px solid #54D2D2;
+    border-radius: 10px;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    transition: background .5s, border .5s;
+}
+.loginRegister:hover {
+    /* Navy05 */
+    background: #54D2D2;
+    border: 5px solid #072448;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+/*       MODAL*/
+
+.ModalBody {
+    width: 40vw;
+    height: 90vh;
+    position: relative;
+    background-color: #FFDFDC;
+    border: 5px solid #072448;
+    border-radius: 5px;
+}
+
+.ModalContent {
+    width: 40vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Heading {
+    display: flex;
+    justify-content: center;
+}
+
+#imgBox {
+    display: flex;
+    justify-content: center;
+}
+
+.imgcontainer {
+    text-align: center;
+    overflow: hidden;
+    border-radius: 50%;
+    height: 25vh;
+}
+
+img.avatar {
+    max-height: inherit;
+    width: auto;
+}
+
+.loginRegisterContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vw;
+}
+
+.loginRegisterButton {
+    background-color: #072448;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 2.4vmin;
+    font-family: 'Patrick Hand', serif;
+}
+/* set a hover effect for the button*/
+
+.loginRegisterButton:hover {
+    opacity: 0.8;
+    background-color: #46AFAF;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 2.4vmin;
+    font-family: 'Patrick Hand', serif;
+}
+
+.cancelBtn {
+    margin-left: 2vw;
+    height: 5vh;
+    width: 10vw;
+    background-color: white;
+    border: 1px solid #072448;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 2vw;
+    font-family: 'Patrick Hand', serif;
+    color: #072448;
+}
+
+.cancelBtn:hover {
+    opacity: 0.8;
+    background-color: #CDD3DA;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+#psw {
+    font-size: 2.4vmin;
+    font-family: 'Patrick Hand', serif;
+    margin-right: 2vw;
+}
+
+.login_register {
+    color: #FFFFFF;
+    padding: 1vw;
+}
+/*      NIGHT MODE*/
+.padding {
+    padding-right: 5vw;
+}
+
+.border_night {
+    display: flex;
+    align-items: center;
+    max-height: 6vh;
+    /* Aqua */
+    background: #54D2D2;
+    /* Navy */
+    border: 5px solid #072448;
+    border-radius: 10px;
+}
+
+#night-mode {
+    text-decoration: none;
+    color: #072448;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    /* Aqua */
+    background: #54D2D2;
+    /* Navy */
+    border: 5px solid #072448;
+    border-radius: 10px;
+    transition: color .5s, background .5s, border .5s;
+}
+#night-mode:hover {
+    /* Navy05 */
+    color: white;
+    background: #072448;
+    border: 5px solid #54D2D2;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    height: 6vh;
+}
+
+.moon {
+    max-height: 5vh;
+}
+.moon:hover {
+    color: white;
+    background-color: white;
+}
+
+.night_mode {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "genre": "Action"
+  },
+  {
+    "genre": "Adventure"
+  },
+  {
+    "genre": "Comedy"
+  },
+  {
+    "genre": "Cooking"
+  },
+  {
+    "genre": "Drama"
+  },
+  {
+    "genre": "Fantasy"
+  },
+  {
+    "genre": "Historical"
+  },
+  {
+    "genre": "Horror"
+  },
+  {
+    "genre": "Isekai"
+  },
+  {
+    "genre": "Martial Arts"
+  },
+  {
+    "genre": "Mature"
+  },
+  {
+    "genre": "Mecha"
+  },
+  {
+    "genre": "Military"
+  },
+  {
+    "genre": "Music"
+  },
+  {
+    "genre": "Mystery"
+  },
+  {
+    "genre": "Parody"
+  },
+  {
+    "genre": "Police"
+  },
+  {
+    "genre": "Psychological"
+  },
+  {
+    "genre": "Romance"
+  },
+  {
+    "genre": "Samurai"
+  },
+  {
+    "genre": "School"
+  },
+  {
+    "genre": "Sci-fi"
+  },
+  {
+    "genre": "Seinen"
+  },
+  {
+    "genre": "Shojo"
+  },
+  {
+    "genre": "Shounen"
+  },
+  {
+    "genre": "Slice of Life"
+  },
+  {
+    "genre": "Space"
+  },
+  {
+    "genre": "Sports"
+  },
+  {
+    "genre": "Superpower"
+  },
+  {
+    "genre": "Supernatural"
+  },
+  {
+    "genre": "Thriller"
+  },
+  {
+    "genre": "Vampire"
+  },
+  {
+    "genre": "Yaoi"
+  },
+  {
+    "genre": "Yuri"
+  }
+]
