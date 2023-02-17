@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/eirik64/manganato_redesign/static/css/main.21ba82b7.css",
-    "main.js": "/eirik64/manganato_redesign/static/js/main.bdaa1e09.js",
-    "index.html": "/eirik64/manganato_redesign/index.html",
-    "main.21ba82b7.css.map": "/eirik64/manganato_redesign/static/css/main.21ba82b7.css.map",
-    "main.bdaa1e09.js.map": "/eirik64/manganato_redesign/static/js/main.bdaa1e09.js.map"
+    "main.css": "/sleepyllama001/my-app/static/css/main.21ba82b7.css",
+    "main.js": "/sleepyllama001/my-app/static/js/main.5c303c35.js",
+    "index.html": "/sleepyllama001/my-app/index.html",
+    "main.21ba82b7.css.map": "/sleepyllama001/my-app/static/css/main.21ba82b7.css.map",
+    "main.5c303c35.js.map": "/sleepyllama001/my-app/static/js/main.5c303c35.js.map"
   },
   "entrypoints": [
     "static/css/main.21ba82b7.css",
-    "static/js/main.bdaa1e09.js"
+    "static/js/main.5c303c35.js"
   ]
 }
