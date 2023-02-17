@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/eirik64/manganato_redesign/static/css/main.21ba82b7.css",
+    "main.js": "/eirik64/manganato_redesign/static/js/main.766dfc9f.js",
+    "index.html": "/eirik64/manganato_redesign/index.html",
+    "main.21ba82b7.css.map": "/eirik64/manganato_redesign/static/css/main.21ba82b7.css.map",
+    "main.766dfc9f.js.map": "/eirik64/manganato_redesign/static/js/main.766dfc9f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21ba82b7.css",
+    "static/js/main.766dfc9f.js"
+  ]
+}
